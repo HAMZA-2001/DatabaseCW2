@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: bor;
+}
+
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(43, 74, 121);
+    
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(194, 21, 142);
+}
+
+input{
+    width: 80%;
+    margin: 70px auto;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn1{
+    color: white;
+    background: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.btn2{
+    color: white;
+    background: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.bg1{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.Home{
+   
+    color: white;
+    background: rgb(91, 17, 151);
+    padding: 15px 40px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+.centre{
+
+    max-width: 7%;
+    padding: 34px;
+    margin: auto;
+}
+
+dd{
+
+    text-align: center;
+    font-size: 40px;
+    color: rgb(194, 21, 142);
+
+}
+
+dl{
+    margin: 5%;
+}

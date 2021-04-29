@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width/2, initial-scale=0.5">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 12px 6px;
+  cursor: pointer;
+   width: 100%;
+   border-radius: 8px; 
+}
+
+.bg1{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+</style>
+</head>
+<body background="pic3.jpg">
+<img src="logo2.png" alt="logo" width="600" 
+  height="250" >
+<div class="btn-group">
+<div class="center">
+   <a href="4options.html"><button id="slide_start_button" class="button" value="Edit Database" >Edit Database</button></a>
+   <a href="dbi.php"><button id="slide_stop_button" class="button" value="Database">Database</button></a>
+   </div>
+</div>
+</body>
+</html>
